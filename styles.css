@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: rgb(225, 225, 225);
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container {
+    height: 600px;
+    width: 1000px;
+
+
+    margin-top: 20px; 
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+    border: none;
+    padding: 0;
+}
+
+.blue-text {
+    color: rgb(62, 62, 251);
+    font-weight: 600;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+.inner-container {
+    width: 1000px;
+    height: 100px;
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headings {
+    display: flex;
+    justify-content:first baseline;
+    align-items: flex-end;
+    width: 800px;
+}
+h1 {
+    margin-right: 5px;
+}
+
+.start {
+    margin-top: 30px;
+    font-weight: 400;
+    margin-bottom: -20px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.menu-containers {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-container {
+    border-bottom: 0.1px solid rgb(224, 224, 224);
+    width: 470px;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    padding-bottom: 5px;
+    /* margin-bottom: 20px; */
+    
+}
+.menu-container-text {
+    margin-left: 10px;
+}
+.menu-blue-text {
+    color: rgb(62, 62, 251);
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.menu-normal-text {
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.menu-containers-left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 470px;
+    height: 400px;
+
+}
+
+.menu-containers-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 470px;
+    height: 400px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 360px;
+        height: 900px;
+    }
+    .inner-container {
+        width: 360px;
+    }
+    .menu-containers {
+        display: block;
+    }
+    .headings {
+        width: 300px;
+    }
+    .menu-container {
+        width: 330px;
+    }
+    .menu-containers-left {
+        width: 330px;
+        margin-left: 15px;
+    }
+    .menu-containers-right {
+        width: 330px;
+        margin-top: -50px;
+        margin-left: 15px;
+    }
+
+}
